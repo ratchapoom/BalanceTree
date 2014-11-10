@@ -34,7 +34,7 @@ int main()
 		cout<< mytree.data[i] << " ";
 	}
 	cout <<endl;
-
+	cout << "KUY" ;
 	newtree.balance(mytree.data,0 ,n-1);
 	cout << "New height of the balaced tree is : " << newtree.height()-1 << endl;
 	
